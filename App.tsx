@@ -1,15 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { Text, TextInput, View } from 'react-native';
 import { styles } from './src/style';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Header from './src/components/Header';
+import Navigation from './src/components/NavigationHome';
 
 const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
       <Header />
-      <Text style={styles.text}> AfAAAAAAAAA </Text>
+      <Navigation />
       <StatusBar style="light" />
     </SafeAreaView>
   );

@@ -23,7 +23,8 @@ export const stylesHeader = StyleSheet.create({
   },
   textInput:{
     color:'#fff',
-    padding:10
+    padding:10,
+    flex:1
   },
   logo: {
     width:60,

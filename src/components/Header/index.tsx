@@ -5,7 +5,7 @@ import { stylesHeader } from "./style";
 import { useState } from "react";
 
 const Header = () => {
-  const [search, setSeach] = useState('tes')
+  const [search, setSeach] = useState('')
   
   return(
     <View style={stylesHeader.header}>
@@ -17,6 +17,7 @@ const Header = () => {
           placeholder='Pesquisar...'
           placeholderTextColor='#999'
           value={search}
+          onChangeText={setSeach}
         />
       </View>
       <Image 
