@@ -3,7 +3,8 @@ import { styles } from './src/style';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Header from './src/components/Header';
 import Navigation from './src/components/NavigationHome';
-import SectionImages from './src/components/SectionImages';
+import ViewNews from './src/components/ViewNews';
+import ProfessionsView from './src/components/ProfessionsView';
 
 const App = () => {
 
@@ -12,7 +13,8 @@ const App = () => {
       <StatusBar style="light" />
       <Header />
       <Navigation />
-      <SectionImages />
+      <ViewNews />
+      <ProfessionsView />
     </SafeAreaView>
   );
 }

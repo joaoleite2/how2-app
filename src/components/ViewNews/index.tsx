@@ -3,7 +3,7 @@ import { stylesSection } from "./style";
 import { Image } from "expo-image";
 import HorizontalRow from "../hr";
 
-const SectionImages = () => {
+const ViewNews = () => {
   return(
     <View style={stylesSection.container}>
       <Text style={stylesSection.text}>{'Veja agora >'}</Text>
@@ -28,4 +28,4 @@ const SectionImages = () => {
   )
 }
 
-export default SectionImages;
+export default ViewNews;
