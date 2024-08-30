@@ -1,7 +1,6 @@
 import { ScrollView, Text, View } from "react-native";
 import { stylesSection } from "./style";
 import { Image } from "expo-image";
-import HorizontalRow from "../hr";
 
 const ViewNews = () => {
   return(
@@ -23,7 +22,6 @@ const ViewNews = () => {
           style={stylesSection.image}
         />
       </ScrollView>
-      <HorizontalRow />
     </View>
   )
 }

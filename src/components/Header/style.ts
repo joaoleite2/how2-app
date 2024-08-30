@@ -10,7 +10,7 @@ export const stylesHeader = StyleSheet.create({
     alignItems:'center',
     marginTop:10,
     flexDirection:'row',
-    gap:20
+    gap:20,
   },
   searchView:{
     backgroundColor:'#333232',
